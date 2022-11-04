@@ -1,0 +1,106 @@
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.nav1{
+}
+
+.nav1 input{
+    height: 23px;
+    width: 250px;
+}
+
+.nav1 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    border-style: outset;
+    padding: 5px;
+    margin-left: 70px;
+}
+
+.logo{
+    height: 120px;
+    width: 160px;
+
+}
+
+.carritoContacto{
+    text-align: end;
+    word-spacing: 30px;
+}
+
+.carritoContacto a{
+    align-items: center;
+    text-transform: uppercase;
+    border-style: outset;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.buscador{
+    align-items: center;
+}
+
+
+.nav2{
+    text-align: center;
+    word-spacing: 30px;
+    padding-top: 30px;
+}
+
+.iconos2{
+    border-style:dashed;
+    text-transform: uppercase;
+    text-decoration: none;  
+    border-style: outset;
+    padding: 5px;
+}
+
+h1{
+    font-size: 0px;
+}
+
+h2{
+    text-align: center;
+    font-weight: 300;
+    padding-top: 60px;
+}
+
+.productosInicio{
+margin-top: 60px;
+margin-bottom: 60px;
+text-align: center;
+word-spacing: 120px;
+}
+
+img{
+height:300px;
+width:300px;
+}
+
+footer{
+    text-align: center;
+    text-decoration: none;
+    word-spacing: 60px;
+    background-color: rgb(172, 172, 172);
+    padding: 40px;
+
+}
+
+.iconosFooter{
+    text-decoration: none;
+    color: rgb(20, 20, 19);    
+}
+
+
+
+
+
