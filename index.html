@@ -8,16 +8,21 @@
     <title>jensen</title>
 </head>
 <body>
-
     <header>
-        <section>
-            <nav class="nav1">
-                <img class="logo" src="./img/logojensenEdit.jpg" alt="logo de la pagina">
-                <input type="text" value="Buscar">
-                <a href="./pages/carrito.html">carrito</a>
-                <a href="./pages/contacto.html">Contacto</a>
-            </nav>
-        </section>    
+        <div>
+            <img class="logo" src="img/logojensenEdit.jpg" alt="logo de la pagina">  
+        </div>
+        <div>
+            <input type="text" value="Buscar">
+        </div>
+        <div class="carritoycontacto">
+            <a href="pages/carrito.html">
+                <img src="img/carro.png" alt="carrito de compras">
+            </a>
+            <a href="pages/contacto.html">
+                <img src="img/atencion-al-cliente.png" alt="contacto">
+            </a>
+        </div> 
     </header>
 
     <main>
@@ -36,17 +41,38 @@
                 <h2> Estilo,comodidad y calidad en un solo lugar</h2>
             </div>  
             <div class="productosInicio">
-                <img src="img/pantuflas.jpg" alt="pantuflas">
-                <img src="img/buzo chica lila.jpg" alt="buzo lila">
-                <img src="img/remera verde militar .jpg" alt="remera color verde militar">
+                <img class="img-productosinicio" src="img/pantuflas.jpg" alt="pantuflas">
+                <img class="img-productosinicio" src="img/buzo chica lila.jpg" alt="buzo lila">
+                <img class="img-productosinicio" src="img/remera verde militar .jpg" alt="remera color verde militar">
             </div>
         </section>      
     </main>
    
     <footer>
-           <a class="iconosFooter" href="">Facebook</a>
-           <a class="iconosFooter" href="">Whatsapp</a>
-           <a class="iconosFooter" href="">Instagram</a>
+           <div class="grupo-1">
+                <div class="box">
+                    <h2 class="h2-sobrenosotros">SOBRE NOSOTROS</h2>
+                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, vel.</P>
+                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, vel.</P>
+                </div>
+                <div class="box">
+                    <h2 class="h2-seguinos">SIGUENOS</h2>
+                    <div class="redes-sociales">
+                        <a href="#">
+                            <img class="iconos-red-social" src="img/facebook.png" alt="Pagina de facebook">
+                        </a>
+                        <a href="#">
+                            <img class="iconos-red-social" src="img/instagram.png" alt="Pagina de instagram">
+                        </a>
+                        <a href="#">
+                            <img class="iconos-red-social" src="img/gmail.png" alt="Pagina de gmail">
+                        </a> 
+                    </div>  
+                </div>
+           </div>
+           <div class="grupo-2">
+                <small>&copy; 2021 - <b>Jensen Ropa</b> - Todos Los Derechos Reservados</small>
+           </div>
     </footer>
 </body>
 </html>

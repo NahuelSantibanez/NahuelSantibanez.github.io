@@ -3,33 +3,46 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: content-box;
 }
 
+                                           /*ACA COMIENZA EL HEADER*/
 header{
-    background-color: white;
-    margin-bottom: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    grid-gap: 50px;
 }
 
-.nav1{
+header div{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
 }
 
-.nav1 input{
-    height: 23px;
-    width: 250px;
+header div input{
+width: 300px;
+height: 25px;
 }
 
-.nav1 a{
-    text-transform: uppercase;
+.carritoycontacto{
+    word-spacing: 45px;
+    width: 150px;
+}
+
+header div a{
     text-decoration: none;
-    border-style: outset;
-    padding: 5px;
-    margin-left: 70px;
 }
 
-.logo{
-    height: 120px;
-    width: 160px;
+header div a img{
+    height: 45px;
+    width: 45px;
+}
 
+header .logo{
+    height: 100px;
+    width: 180px;
 }
 
 .carritoContacto{
@@ -81,25 +94,66 @@ text-align: center;
 word-spacing: 120px;
 }
 
-img{
-height:300px;
-width:300px;
+.img-productosinicio{
+height: 280px;
+width: 280px;
 }
+
+                                           /*ACA COMIENZA EL FOOTER*/
 
 footer{
+    width: 100%;
+}               
+
+footer .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    margin-bottom: -20px;
+}
+
+
+footer .grupo-1 .box h2{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+footer .grupo-1 .box .h2-sobrenosotros{
+    text-align: left;
+}
+
+footer .grupo-1 .box p{
+    margin-bottom: 10px;
+}
+
+footer .grupo-1 .box .redes-sociales{
+    text-align: right;
+    word-spacing: 55px;
+}
+
+footer .grupo-1 .box .h2-seguinos{
+    margin-left: 320px; ;
+}
+
+footer .grupo-1 .box .redes-sociales a{
+    text-decoration: none;
+}
+
+footer .grupo-1 .box .redes-sociales a img{
+    height: 45px;
+    width: 45px;
+}
+
+.grupo-2{
     text-align: center;
-    text-decoration: none;
-    word-spacing: 60px;
-    background-color: rgb(172, 172, 172);
-    padding: 40px;
-
+    font-size: 20px;
+    margin-bottom: 10px;
 }
-
-.iconosFooter{
-    text-decoration: none;
-    color: rgb(20, 20, 19);    
-}
-
 
 
 
